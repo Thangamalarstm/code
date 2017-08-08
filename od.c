@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
-void main() 
+int main() 
 {
 int n;
 clrscr;
@@ -14,5 +13,5 @@ else
 {
 printf("It is ODD Number:%d",n);
 }
-getch();
+return 0;
 }
