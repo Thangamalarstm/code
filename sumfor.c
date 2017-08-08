@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
-void main() 
+int main() 
 {
 int i,n,sum=0;
 clrscr;
@@ -11,5 +10,5 @@ for(i=1;i<=n;i++)
 sum=sum+i;
 }
 printf("The sum of natural number:%d",sum);
-getch();
+return 0;
 }
