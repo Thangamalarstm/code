@@ -6,7 +6,7 @@ int at;
 clrscr;
 printf("Enter a number:");
 scanf("%d",&at);
-if(at/4==0)
+if(at%4==0)
 {
 printf("It is a Leap year:%d",at);
 }
