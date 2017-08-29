@@ -11,7 +11,7 @@ b=a%10;
 c+=b*b*b;
 a/=10;
 }
-if(c==10)
+if(c==n)
 {
 printf("%d is a armstrong number",n);
 }
