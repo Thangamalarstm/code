@@ -4,7 +4,7 @@ int main()
 int u;
 printf("Enter a number:");
 scanf("%d",&u);
-if(s%7==0)
+if(s%13==0)
 {
 printf("YES");
 }
