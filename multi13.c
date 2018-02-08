@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main() 
 {
-int s;
+int u;
 printf("Enter a number:");
-scanf("%d",&s);
+scanf("%d",&u);
 if(s%7==0)
 {
 printf("YES");
