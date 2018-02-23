@@ -11,6 +11,5 @@ a=a*10+b;
 n=n/10;
 }
 printf("Reverse of a Numbers :%d",a);
-}
 return 0;
 }
