@@ -23,7 +23,7 @@ a[j]=temp;
     
 }
 
-   printf("\n The sorted array is...");
+   printf("\n Lexicographical  is...");
   for(i=0;i<n;i++){
     printf("%d\t",a[i]);
 }
