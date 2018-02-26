@@ -1,23 +1,26 @@
 #include<stdio.h>
 int main()
 {
-int i,b,s;
-printf("\n Enter the number");
-scanf("%d",&s);
-for(i=2;i<=s/2;++i)
+int c=0,l,i;
+printf("/n Enter the two number");
+scanf("%d",&l);
+for(i=2;i<=l/2;i++)
 {
-if(s%i==0)
+if(l%i==0)
 {
-b=1;
+c=1;
 break;
 }
 }
-if(b==0)
+if(c==0)
 {
-printf("%d is a prime number:",i);
+printf("NO");
+++l;
 }
-else{
-printf("%d is  a composite number:",i);
+else
+{
+printf("YES,It is composite");
+
 }
 return 0;
 }
