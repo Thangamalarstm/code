@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
+int a,b,c;                                         //only for 3 digit number
 printf("Enter the 3 digit number");
 scanf("%d",&a);
 printf("Enter the 3 digit number");
