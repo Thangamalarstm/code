@@ -1,27 +1,33 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
-int l,h,c,i;
-printf("/n Enter the two number");
-scanf("%d",&l,&h);
-printf("prime number b/w %d and %d:"l,h);
-}
-while(l<h)
+int a,b,cnt=0,i,j,c=0;
+printf("Enter the 2 numbers..:");
+scanf("%d%d",&a,&b);
+
+for(i=a;i<b;i++)
 {
-c=0
-}
-for(i=2;i<=l/2;++i)
+    for(j=2;j<a;j++)
 {
-if(l%i==0)
+    if(i%j==0)
+    {
+        cnt=1;
+        break;
+    }
+    else
+    {
+        cnt=0;
+    }
+   
+}
+
+if(cnt==0)
 {
-c=1;
-break;
+c=c+1;
+
 }
 }
-if(c==0)
-{
-printf("%d is a prime number:",l);
-++l;
-}
+printf("prime numbers are:%d",c);
 return 0;
 }
